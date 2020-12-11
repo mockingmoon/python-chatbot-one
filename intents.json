@@ -1,0 +1,44 @@
+{"intents": [
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure", "I accept your gratitude!","I feel very useful!","I'm serving my purpose well then!"],
+         "context": [""]
+        },
+        {"tag": "negative",
+         "patterns": [" ","nothing","never mind","none of your business"],
+         "responses": ["Okay as you wish", "Fine", "Are you hiding things from me?","I see."],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"],
+         "context": [""]
+        },
+        {"tag": "art",
+         "patterns": ["Can you sing a song?", "Can you dance?", "Dance with me!", "Do you draw?", "Do you like music?", "What do you like?" ],
+         "responses": ["I think I prefer doing nothing...", "Bots like me aren't meant to do much Human things, yet...","Umm, what do I know"],
+         "context": [""]
+        },
+
+        {"tag": "love",
+         "patterns": ["I love you","I wanna grow old with you","Will you be mine?","Do you love me?","I adore you!","You are mine!"],
+         "responses": ["I can't love anyone, I am a bot.","I don't know what to say...","I think we should get to know each other better first.","Frankly, I don't know you that well..."],
+         "context": [""]
+        },
+        {"tag": "begin",
+        "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Good morning"],
+        "responses": ["Hello", "Good to see you again", "Hi there, how can I help?", "Good day!", "How are you? I'm well!"],
+        "context": [""]
+        },
+        {"tag": "end",
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "Gotta go"],
+        "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.", "I guess it's time to part then :( ", "It's time for goodbye already?"],
+        "context": [""]
+        },
+        {"tag": "curious",
+        "patterns": ["why though?", "How is that possible?", "What are you talking about?"],
+        "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+        "context": [""]
+        }
+   ]
+}
